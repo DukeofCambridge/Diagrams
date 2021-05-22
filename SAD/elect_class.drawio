@@ -1,1 +1,126 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T09:12:44.080Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" version="14.6.13" etag="K6xEM1RX4hYZ1Q4me1K6" type="github"><diagram id="lahAI4o_v5NNIT2_g8Nk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-22T09:44:15.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" etag="ZJ63QA6l9HdQW5l-kTfa" version="14.6.13" type="github">
+  <diagram id="lahAI4o_v5NNIT2_g8Nk" name="Page-1">
+    <mxGraphModel dx="1038" dy="585" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-1" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;Health Detection System&lt;/font&gt;&lt;/span&gt;（&amp;lt;&amp;lt;control&amp;gt;&amp;gt;）" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;swimlane;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;fontStyle=0;marginBottom=0;swimlaneFillColor=#ffffff;startSize=45;whiteSpace=wrap;fontSize=13;fontColor=#333333;fontStyle=1;whiteSpace=wrap;align=center;spacing=0;strokeColor=#333333;strokeOpacity=100;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="400" y="265" width="225" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-2" value="- Maximum number of Dormant people(int)&#xa;- Is_captain_dormant(bool)" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-1">
+          <mxGeometry y="45" width="225" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-1">
+          <mxGeometry y="121" width="225" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-4" value="+ Get the number of people in dormancy(int)&#xa;+ Wake up the captain&#xa;+ Wake up the crew&#xa;+ Wake up the crew(int)&#xa;+ Allocate_cabin()" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-1">
+          <mxGeometry y="129" width="225" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-5" value="Dormant Cabin&lt;br&gt;（&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;）" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;swimlane;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;fontStyle=0;marginBottom=0;swimlaneFillColor=#ffffff;startSize=50;whiteSpace=wrap;fontSize=13;fontColor=#333333;fontStyle=1;whiteSpace=wrap;align=center;spacing=0;strokeColor=#333333;strokeOpacity=100;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="265" width="225" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-6" value="- Cabin_ID&lt;br&gt;- Is_busy()&lt;br&gt;- Crew_ID" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-5">
+          <mxGeometry y="50" width="225" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-5">
+          <mxGeometry y="110" width="225" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-8" value="+ get_Cabin_ID()&lt;br&gt;+ get_Crew_ID()&lt;br&gt;+ get_Isbusy()&lt;br&gt;+ modify_Cabin_ID()" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-5">
+          <mxGeometry y="118" width="225" height="102" as="geometry" />
+        </mxCell>
+        <UserObject label="" lucidchartObjectId="2gjDA~KYbzQr" id="dTBrqwSi1oJnKRtNTOWD-9">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#333333;strokeOpacity=100;strokeWidth=0.8;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;;endArrow=none;;" edge="1" parent="1">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="400" y="372" />
+              </Array>
+              <mxPoint x="400" y="370" as="sourcePoint" />
+              <mxPoint x="296" y="372" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-10" value="&lt;font style=&quot;font-size: 18px&quot;&gt;*&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="379.38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-11" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="379.38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-12" value="Health Detection System Interface&#xa;（&lt;&lt;boundary&gt;&gt;）" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=55;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="710" y="265" width="250" height="130" as="geometry">
+            <mxRectangle x="710" y="265" width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-13" value="+ Login()&#xa;+ Verify AI Identity()&#xa;+ Get Captain Health_Info()&#xa;+ Wake up crew()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-12">
+          <mxGeometry y="55" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="625" y="330" width="85" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-15" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="318" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-16" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="318" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-17" value="Personnel Management System Interface&#xa;（&lt;&lt;boundary&gt;&gt;）" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=55;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="710" y="570" width="260" height="130" as="geometry">
+            <mxRectangle x="710" y="265" width="280" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-18" value="+ Login()&#xa;+ Verify AI Identity()&#xa;+ Modify person status()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=13;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-17">
+          <mxGeometry y="55" width="260" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-19" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Personnel Management&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 13px&quot;&gt;&amp;nbsp;System&lt;/font&gt;&lt;/span&gt;（&amp;lt;&amp;lt;control&amp;gt;&amp;gt;）" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;swimlane;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;fontStyle=0;marginBottom=0;swimlaneFillColor=#ffffff;startSize=45;whiteSpace=wrap;fontSize=13;fontColor=#333333;fontStyle=1;whiteSpace=wrap;align=center;spacing=0;strokeColor=#333333;strokeOpacity=100;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="400" y="570" width="225" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-20" value="- Maximum number of Dormant people(int)&#xa;- Is_captain_dormant(bool)" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-19">
+          <mxGeometry y="45" width="225" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-19">
+          <mxGeometry y="121" width="225" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-22" value="+ Get person_status()&lt;br&gt;+ Add person information()&lt;br&gt;+ Remove person information()&lt;br&gt;+ Modify person information()&lt;br&gt;+ Modify person status()" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-19">
+          <mxGeometry y="129" width="225" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="625" y="637" width="85" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-24" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="625" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-25" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="625" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-27" value="Spacecraft Crew&lt;br&gt;（&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;）" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;swimlane;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;fontStyle=0;marginBottom=0;swimlaneFillColor=#ffffff;startSize=50;whiteSpace=wrap;fontSize=13;fontColor=#333333;fontStyle=1;whiteSpace=wrap;align=center;spacing=0;strokeColor=#333333;strokeOpacity=100;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="70" y="570" width="225" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-28" value="- Is_dormant()&lt;br&gt;- Is_busy()&lt;br&gt;- Crew_ID&lt;br&gt;- Name&lt;br&gt;- Gender&lt;br&gt;- Job&lt;br&gt;- Status" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-27">
+          <mxGeometry y="50" width="225" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-27">
+          <mxGeometry y="170" width="225" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-30" value="+ Modify person information()&lt;br&gt;+ Modify person status()" style="part=1;html=1;whiteSpace=wrap;resizeHeight=0;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;swimlaneFillColor=#ffffff;strokeOpacity=100;whiteSpace=wrap;fontSize=13;fontColor=#333333;" vertex="1" parent="dTBrqwSi1oJnKRtNTOWD-27">
+          <mxGeometry y="178" width="225" height="52" as="geometry" />
+        </mxCell>
+        <UserObject label="" lucidchartObjectId="2gjDA~KYbzQr" id="dTBrqwSi1oJnKRtNTOWD-31">
+          <mxCell style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#333333;strokeOpacity=100;strokeWidth=0.8;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;;endArrow=none;;entryX=1.004;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+            <mxGeometry width="100" height="100" relative="1" as="geometry">
+              <Array as="points">
+                <mxPoint x="400" y="647" />
+              </Array>
+              <mxPoint x="400" y="645" as="sourcePoint" />
+              <mxPoint x="295.9000000000001" y="646.658" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-32" value="&lt;font style=&quot;font-size: 18px&quot;&gt;*&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="654.38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dTBrqwSi1oJnKRtNTOWD-33" value="&lt;font style=&quot;font-size: 16px&quot;&gt;1&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="654.38" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
