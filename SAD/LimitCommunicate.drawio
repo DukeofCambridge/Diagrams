@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-22T07:55:14.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" etag="fmrRXoNaN7XtdOzppPX1" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-22T08:57:07.910Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 Edg/90.0.818.56" etag="dyU7gPKAI5FrcOKoJbU8" version="14.6.13" type="github">
   <diagram id="MllmWd7I1oxpp0U6nGxe" name="Page-1">
     <mxGraphModel dx="716" dy="403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -71,6 +71,9 @@
         </mxCell>
         <mxCell id="6dBebF3-bVjpEIKWxez3-54" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 11px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline; float: none;&quot;&gt;7.Execute wake up command()&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="260" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6dBebF3-bVjpEIKWxez3-59" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: italic ; text-align: center&quot;&gt;Dormancy Cabin&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="191" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
